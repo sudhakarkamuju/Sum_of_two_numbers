@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Sum of Two numbers</title>
+	<link rel="stylesheet" type="text/css" href="Sum.css">
+</head>
+<body>
+	<div id="Out">
+	<div id="In">
+		<h2 class="text">Sum of Two numbers</h2>
+		<form>
+			<label class="text" for="Num_1">Enter two Numbers</label>
+			<br>
+			<br>
+			<input type="Number" id="Num_1" name="num_1" required>
+			<span style="color:white;font-weight: 900;">+</span>
+			<input type="Number" id="Num_2" name="num_2" required>
+			<div id="output">
+				<output id="sum"></output>
+				<!-- <p id="sum"></p> -->
+			</div>
+			<button onclick="Sum()" type="button" id="submit">Calculate</button>
+			<button onclick="Reset()" type="reset" id="reset">Reset</button>
+
+			<script>
+			function Sum() {
+			  document.getElementById("sum").innerHTML = parseInt(Num_1.value)+parseInt(Num_2.value);
+			}
+			</script>
+		</form>
+	</div>
+	</div>
+</body>
+</html>
