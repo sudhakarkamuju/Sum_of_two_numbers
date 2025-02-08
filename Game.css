@@ -1,0 +1,76 @@
+
+.outer{
+    height: 70vmin;
+    width: 70vmin;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 5vmin;
+    flex-wrap: wrap;
+}
+
+.box{
+    width: 20vmin;
+    height: 20vmin;
+    background-color: gray;
+    color: black;
+    font-size: 15vmin;
+    border-radius: 2vmin;
+    border: none;
+}
+
+body{
+    height: 100vh;
+    width: 100vw;
+    margin: 0px;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    box-sizing: border-box;
+}
+
+.reset{
+    height: 1.5em;
+    padding: 0px 0.7em;
+    /* width: 14vmin; */
+    margin: 5vmin 4vmin;
+    font-size: 5vmin;
+    font-weight: bold;
+    font-family: serif;
+    background-color: gray;
+    border-radius: 1vmin;
+    border: none;
+}
+
+#winner{
+    color: white;
+    font-size: 7vmin;
+}
+
+#hide{
+    display: none;
+}
+
+#X{
+    padding: 0.1em 0.25em;
+    margin:0px;
+    font-size: 5vmin;
+    font-weight: bold;
+    font-family: serif;
+    background-color: gray;
+    border-radius: 1vmin;
+    border: none;
+}
+
+#O{
+    padding: 0.1em 0.25em;
+    margin:0px;
+    font-size: 5vmin;
+    font-weight: bold;
+    font-family: serif;
+    background-color: black;
+    border-radius: 1vmin;
+    border: none;
+}
